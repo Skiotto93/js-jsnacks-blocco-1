@@ -7,6 +7,6 @@ for (i= 0; i < 6; i++) {
     //Se il numero è dispari lo vado ad inserire nell'arrey
     if ( number % 2 === 1) {
         numbersOdd.push(number)
-    }
+    };
 }
 console.log(numbersOdd);
