@@ -1,12 +1,12 @@
 "use strict";
 //Creo un arrey con dei numeri interi
-const numbers = [15, 90, 23, 7, 37, 2, 1, 15, 84, 10];
+const numbers = [1, 2, 3, 4];
 
 //Faccio la somma di tutti i numeri dispari contenuti nell'arrey
 let sum = 0;
 
 for(let i = 0; i < numbers.length; i++) {
-    if ( i % 2 === 0 ) {
+    if ( i % 2 === 1 ) {
     sum += numbers[i];
     }    
 }
